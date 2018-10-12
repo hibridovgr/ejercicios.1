@@ -7,7 +7,7 @@
 - links [Ej. Iconos site](https://Iconos.edu.mx)
 
 <!-- - photos Ej.: ![](Ruta de la imagen) -->
-- photos Ej.: ![](../img/libro.png) 
+- photos Ej.: ![](img/libro.png) 
 
 
 
