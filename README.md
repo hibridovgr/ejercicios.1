@@ -8,7 +8,8 @@
 
 <!-- - photos Ej.: ![](Ruta de la imagen) -->
 - photos Ej.: ![](img/libro.png) 
-
+- photos Ej.: ![](img/hibridx.png)
+- photos Ej.: ![](img/dibujosmios.png)
 
 
 # ejercicios.1
