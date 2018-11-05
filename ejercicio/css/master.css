@@ -42,7 +42,10 @@
   nav ul{
     list-style-type: none;
   }
-  nav ul li {height: 25px;}
+  nav ul li {
+    height: 25px;
+    display: block;
+  }
   nav ul li a{
     display: block;
     height: 100%;
