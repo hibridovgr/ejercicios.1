@@ -1,0 +1,170 @@
+/* wireframe */
+
+* {
+  outline: 1px solid lime;
+}
+  
+/* variables */
+  
+:root {
+  --color-primario: #00ff00;
+  --color-secundario: #0ff000;
+  --color-link: #ff0000;
+  --color-link-hover: #f00000;
+  --altura-header: 75px;
+  --altura-seccion: 100vh;
+}
+  
+/* resets */
+  
+body{
+  /* background-color: black; */
+}
+  
+div, section, article, ul, nav{
+  height: 100%;
+}
+  
+a{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+  
+ul{
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  padding: 16px 0 16px 0;
+}
+
+form{
+  margin-bottom: 16px;
+}
+  
+.ha{
+  height: auto;
+}
+  
+#main, #info, #ubicacion, #participantes{
+  padding-top: var(--altura-header);
+}
+  
+/* header */
+  
+header{
+  height: var(--altura-header);
+  position: fixed;
+  z-index: 10000;
+}
+  
+figure{
+  height: 100%;
+  display: block;
+  margin: 0;
+}
+  
+figure img{
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: auto;
+}
+  
+/* body */
+  
+#heroscreen, #info, #ubicacion{
+  height: var(--altura-seccion);
+} 
+/* heroscreen */
+  
+#heroscreen{
+  position: relative;
+}
+  
+.heroscreen_background{
+  overflow: hidden;
+  position: absolute;
+  padding: 0;
+  z-index: -1;
+}
+  
+.heroscreen_background img{
+  height: 100%;
+  width: 100%;
+}
+  
+.heroscreen_text{
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+  
+.heroscreen_text h1{
+  font-size: 6em; 
+}
+  
+.heroscreen_text h3{
+  font-size: 4em;
+}
+/* info */
+ /*  */ 
+/* Participantes */
+  
+.participantes_item{
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+  
+.participantes_item_back{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  
+}
+  
+.participantes_item_back img{
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+  
+.participantes_item_text{
+  position: absolute;
+  z-index: 0;
+}
+  
+  /* Ubucacion */
+  
+#ubicacion{
+  overflow: hidden;
+}
+  
+#map{
+  background: url('../img/carel.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100%;
+}
+  
+  /* footer */
+  
+footer{
+  height: var(--altura-header);
+}
+
+.social{
+  font-size: 2em;
+}
+  
+.social ul{
+  padding: 0;
+  margin: 0;
+}
