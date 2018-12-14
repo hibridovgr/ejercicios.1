@@ -18,7 +18,8 @@ $(document).ready( () => {
 
 // aqui cambie el 250 por 25 para que valla rapido o lento como en arduino
 imgLiquid()
-colores_fondo(2500,["#3465fa","purple","black","yellow","lime","orange"])
+//colores_fondo(2500,["#3465fa","purple","black","yellow","lime","orange"])
+colores_fondo(2500,["#00f6ff","75f4f9","c0fdff"])
 
 } )
 

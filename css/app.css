@@ -121,7 +121,14 @@ figure img {
   overflow: hidden;
 }
 #map {
-  background: url('../img/placeholder.png') no-repeat;
+  background: url('../img/carel.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100%;
+}
+#map:hover{
+  background: url('../img/tlaloc.JPG') no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
